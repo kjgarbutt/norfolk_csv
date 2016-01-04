@@ -123,7 +123,7 @@ public class NorfolkCSV extends SimState	{
     //public void setNumAgents(int n) { if (n > 0) numAgents = n; } 
 
     void addAgents()	{
-    	String filename = "data/merge1.csv";
+    	String filename = "/Volumes/JetDrive/Copy/workspace/EngDProject/src/sim/app/geo/norfolk_csv/data/merge1.csv";
 		CSVReader reader;
 		System.out.println();
 		System.out.println("Adding Main agents...");
@@ -148,8 +148,7 @@ public class NorfolkCSV extends SimState	{
     }
     
     void addNGOAgents()	{
-//		String filename1 = "/Users/KJGarbutt/Desktop/NGOAgent.csv";
-		String filename1 = "data/NGO.csv";
+		String filename1 = "/Volumes/JetDrive/Copy/workspace/EngDProject/src/sim/app/geo/norfolk_csv/data/NGO.csv";
 		CSVReader reader1;
 		System.out.println();
 		System.out.println("Adding NGO agents...");
@@ -173,8 +172,7 @@ public class NorfolkCSV extends SimState	{
     }
     
     void addElderlyAgents()	{
-//		String filename2 = "/Users/KJGarbutt/Desktop/ElderlyAgents.csv";
-		String filename2 = "data/Elderly.csv";
+		String filename2 = "/Volumes/JetDrive/Copy/workspace/EngDProject/src/sim/app/geo/norfolk_csv/data/Elderly.csv";
 		CSVReader reader2;
 		System.out.println();
 		System.out.println("Adding elderly agents...");
@@ -198,8 +196,7 @@ public class NorfolkCSV extends SimState	{
     }
     
     void addLimActAgents()	{
-//		String filename3 = "/Users/KJGarbutt/Desktop/LimitedActionsAgents.csv";
-		String filename3 = "data/LimitedActions.csv";
+		String filename3 = "/Volumes/JetDrive/Copy/workspace/EngDProject/src/sim/app/geo/norfolk_csv/data/LimitedActions.csv";
 		CSVReader reader3;
 		System.out.println();
 		System.out.println("Adding limited actions agents...");
