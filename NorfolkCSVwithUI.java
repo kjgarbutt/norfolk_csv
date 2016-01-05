@@ -103,7 +103,7 @@ public class NorfolkCSVwithUI extends GUIState	{
         elderlyagentPortrayal.setPortrayalForAll(new sim.portrayal.simple.HexagonalPortrayal2D(Color.PINK, 1));
         
         limactagentPortrayal.setField(world.limactagents);
-        limactagentPortrayal.setPortrayalForAll(new GeomPortrayal(Color.ORANGE,40,true));
+        limactagentPortrayal.setPortrayalForAll(new GeomPortrayal(Color.ORANGE,50,true));
         // ava.awt.geom.RoundRectangle2D.Float, java.awt.geom.RoundRectangle2D.Double
         
         // reset stuff
